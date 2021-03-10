@@ -19,9 +19,9 @@ Submitted for Android Developer Challenge 2021 Week 2.
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
+<img src="/results/t-rex-timer.gif" width="260">
 <img src="/results/screenshot_1.png" width="260">&emsp;<img src="/results/screenshot_2.png" width="260">
 <img src="/results/screenshot_3.png" width="260">&emsp;<img src="/results/screenshot_4.png" width="260">
-<img src="/results/t-rex-timer.gif" width="260">
 ## License
 ```
 Copyright 2020 The Android Open Source Project
