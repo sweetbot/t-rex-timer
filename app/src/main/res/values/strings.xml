@@ -9,5 +9,7 @@
       or implied. See the License for the specific language governing permissions and limitations under
       the License.
       -->
-    <string name="app_name">AndroidDevChallenge</string>
+    <string name="app_name">T-Rex Timer</string>
+    <string name="select_duration">"SLIDE TO SELECT DURATION, \nRELEASE TO START COUNTING DOWN!"</string>
+    <string name="text1">text 1</string>
 </resources>
