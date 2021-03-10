@@ -49,10 +49,10 @@ fun RexTimerScreen(mainActivityViewModel: MainActivityViewModel) {
         )
     val tenthOfSeconds =
         (
-                rem - TimeUnit.MINUTES.toMillis(minutes) - TimeUnit.HOURS.toMillis(hours) - TimeUnit.SECONDS.toMillis(
-                    seconds
-                )
-                ) * 10 / 1000
+            rem - TimeUnit.MINUTES.toMillis(minutes) - TimeUnit.HOURS.toMillis(hours) - TimeUnit.SECONDS.toMillis(
+                seconds
+            )
+            ) * 10 / 1000
 
     val sliderPosition =
         (mainActivityViewModel.MAX_DURATION - mainActivityViewModel.remainingInMillis) * 100f / mainActivityViewModel.MAX_DURATION
@@ -129,12 +129,12 @@ fun RexTimerCountDownTimerUI(
 
             Text(
                 text = hours.padStart(2, '0') +
-                        "h " +
-                        minutes.padStart(2, '0') +
-                        "m " +
-                        seconds.padStart(2, '0') +
-                        "s " +
-                        tenthOfSeconds.padStart(2, '0'),
+                    "h " +
+                    minutes.padStart(2, '0') +
+                    "m " +
+                    seconds.padStart(2, '0') +
+                    "s " +
+                    tenthOfSeconds.padStart(2, '0'),
                 style = MaterialTheme.typography.h5,
                 modifier = Modifier.constrainAs(timer) {
                     top.linkTo(animatedScene.top, margin = 180.dp)
